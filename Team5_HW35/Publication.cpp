@@ -10,6 +10,9 @@ Publication::Publication()
 
 Publication::Publication(string name, string author, int year)
 {
+	this->name = name;
+	this->author = author;
+	this->year = year;
 }
 
 Publication::~Publication()
@@ -18,27 +21,30 @@ Publication::~Publication()
 
 string Publication::getName() const
 {
-	return string();
+	return name;
 }
 
 string Publication::getAuthor() const
 {
-	return string();
+	return author;
 }
 
 int Publication::getYear() const
 {
-	return 0;
+	return year;
 }
 
 void Publication::setName(string name)
 {
+	this->name = name;
 }
 
 void Publication::setAuthor(string author)
 {
+	this->author = author;
 }
 
 void Publication::setYear(int year)
 {
+	this->year = year;
 }
