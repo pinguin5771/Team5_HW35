@@ -8,7 +8,7 @@ Publication::Publication()
 	year = 0;
 }
 
-Publication::Publication(string name, string authorm, int year)
+Publication::Publication(string name, string author, int year)
 {
 }
 
