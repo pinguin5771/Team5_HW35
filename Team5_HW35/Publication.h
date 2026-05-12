@@ -11,7 +11,7 @@ protected:
 
 public:
 	Publication();
-	Publication(string name, string authorm, int year);
+	Publication(string name, string author, int year);
 
 	virtual ~Publication();
 
