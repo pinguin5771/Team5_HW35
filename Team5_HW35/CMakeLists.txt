@@ -3,7 +3,7 @@
 #
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (Team5_HW35 "Team5_HW35.cpp" "Team5_HW35.h" "Publication.h" "Publication.cpp")
+add_executable (Team5_HW35 "Team5_HW35.cpp" "Team5_HW35.h" "Publication.h" "Publication.cpp" "Library.h" "Library.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Team5_HW35 PROPERTY CXX_STANDARD 20)
