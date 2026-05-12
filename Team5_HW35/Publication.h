@@ -9,7 +9,7 @@ protected:
 	string author;
 	int year;
 
-private:
+public:
 	Publication();
 	Publication(string name, string authorm, int year);
 
